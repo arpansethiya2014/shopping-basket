@@ -15,8 +15,8 @@ A simple Java program that calculates the total cost of a basket of shopping ite
 ### How to Test:
 Run `mvn test` to execute unit tests.
 
-------------------------------------------------------------------------------------------------------------------------------------
-Java Project Layout (Maven-style)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Shopping Project Layout (Maven-style)
 
 
 shopping/
