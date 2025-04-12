@@ -15,3 +15,28 @@ A simple Java program that calculates the total cost of a basket of shopping ite
 ### How to Test:
 Run `mvn test` to execute unit tests.
 
+------------------------------------------------------------------------------------------------------------------------------------
+Java Project Layout (Maven-style)
+
+
+shopping/
+├── pom.xml                           # Maven build configuration
+├── README.md                         # Project overview and instructions
+└── src/
+    ├── main/
+    │   ├── java/
+    │   │   └── com/
+    │   │       └── arpan/
+    │   │           └── shopping/
+    │   │                  └── Item.java                        # Enum with item definitions and pricing rules
+    │   │                  └── ShoppingBasketCalculator.java    # Logic for calculating basket total
+    │   │                  └── ShoppingApp.java                 # Main class (entry point)
+    │   └── resources/
+    │       └── application.properties                   # (Optional) configs
+    └── test/
+        ├── java/
+        │   └── com/
+        │       └── arpan/
+        │           └── shopping/
+        │               └── service/
+        │                   └── ShoppingApplicationTests.java # Unit tests for ShoppingBasketCalculator
